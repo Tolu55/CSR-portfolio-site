@@ -118,7 +118,8 @@ const Hero = () => {
               View My Work
             </a>
             <a
-              href="#"
+              href="/cv.pdf"
+              download="Toluwani_Ajani_CV.pdf"
               className="w-full sm:w-auto border-2 border-white/20 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/5 transition-colors flex items-center justify-center gap-2"
             >
               <Download size={20} />
@@ -175,9 +176,9 @@ const About = () => {
           >
             <div className="aspect-square bg-primary/10 rounded-3xl overflow-hidden border-4 border-white shadow-2xl">
               <img 
-                src="https://picsum.photos/seed/tolu/800/800" 
+                src="/profile.jpg" 
                 alt="Toluwani Ajani" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full h-full object-cover hover:scale-105 transition-all duration-500"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -498,12 +499,10 @@ const Samples = () => {
 
 const Certs = () => {
   const certifications = [
-    { name: 'Freshservice Expert', issuer: 'Freshworks', status: 'Completed', icon: '✅' },
+    { name: 'Freshdesk Expert Certification', issuer: 'Freshworks', status: 'Completed', icon: '✅' },
     { name: 'HubSpot Service Hub Software', issuer: 'HubSpot Academy', status: 'Completed', icon: '✅' },
-    { name: 'Delivering Exceptional Support', issuer: 'HubSpot Academy', status: 'Completed', icon: '✅' },
+    { name: 'Delivering Exceptional Customer Support', issuer: 'HubSpot Academy', status: 'Completed', icon: '✅' },
     { name: 'Cloud Engineering Diploma', issuer: 'AltSchool Africa', status: 'Completed', icon: '✅' },
-    { name: 'Google IT Support Certificate', issuer: 'Google / Coursera', status: 'In Progress', icon: '🔄' },
-    { name: 'CompTIA A+', issuer: 'CompTIA', status: 'Planned', icon: '📋' },
   ];
 
   return (
@@ -579,7 +578,8 @@ const Contact = () => {
           </div>
 
           <a
-            href="#"
+            href="/cv.pdf"
+            download="Toluwani_Ajani_CV.pdf"
             className="text-white/40 hover:text-primary transition-colors text-sm font-semibold flex items-center justify-center gap-2"
           >
             <Download size={16} />
