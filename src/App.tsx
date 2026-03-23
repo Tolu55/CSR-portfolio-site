@@ -178,7 +178,7 @@ const About = () => {
               <img 
                 src="/profile.jpg" 
                 alt="Toluwani Ajani" 
-                className="w-full h-full object-cover hover:scale-105 transition-all duration-500"
+                className="w-full h-full object-cover object-top hover:scale-105 transition-all duration-500"
                 referrerPolicy="no-referrer"
               />
             </div>
